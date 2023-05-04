@@ -31,4 +31,12 @@ n = 4 (A, B, C, D); r = 2 (All combinations of size 2)
 
 Reference:
 https://www.geeksforgeeks.org/permutation-and-combination-questions/
+https://prepinsta.com/permutation-combination/tips-and-tricks-and-shortcuts/
+https://www.freecodecamp.org/news/permutation-and-combination-the-difference-explained-with-formula-examples/
+
+Implementation of generating permutations
+https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
+
+Implementation of generating combinations
+https://www.geeksforgeeks.org/make-combinations-size-k/
 
