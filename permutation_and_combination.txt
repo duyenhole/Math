@@ -33,9 +33,7 @@ n = 4 (A, B, C, D); r = 2 (All combinations of size 2)
 Reference:
 https://www.freecodecamp.org/news/permutation-and-combination-the-difference-explained-with-formula-examples/
 
-Implementation of generating permutations
-https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
+To generate permutation, using std::next_permutation with ascending order or std::prev_permutation with descending order
 
-Implementation of generating combinations
-https://www.geeksforgeeks.org/make-combinations-size-k/
+To generate combination, refer to duyenhole/Algorithm/generate_combination.cpp
 
