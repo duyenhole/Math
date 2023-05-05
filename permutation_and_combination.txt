@@ -2,11 +2,13 @@ PERMUTATION (Hoan vi)
 
 Formulas for Permutations:
 
-- nPn = n(n – 1) (n -2) 
-- nP0 = 1
-- nP1 = n 
-- nPn-1 = n!
-- nPr = n.n-1Pr-1 = n(n-1)n-2Pr-2 = n!/(n – r)!
+With repetition
+- nPn = n^n
+- nPr = n^r
+
+Without repetition
+- nPn = n!
+- nPr = n!/(n – r)!
 
 Example:
 n = 4 (A, B, C and D); r = 2
@@ -16,13 +18,12 @@ n = 4 (A, B, C and D); r = 2
 COMBINATION (To hop)
 
 Formulas for Combinations:
-nCr is a natural number
-nC0 = (nCn)=1
-nC1 = n
-nCr = (nCn−r)
-nCx =nCy ⇒ x=y or x+y=n
-n.n−1Cr−1 =(n−r+1)*nCr−1
-nCr = n! / ((r!)*(n – r)!)
+
+Without repetition
+- nCr = nPr/r! = n! / (r!(n - r)!)
+
+With repetition
+- nCr = (n + r - 1)! / (r!(n - 1)!)
 
 Example:
 n = 4 (A, B, C, D); r = 2 (All combinations of size 2)
@@ -30,8 +31,6 @@ n = 4 (A, B, C, D); r = 2 (All combinations of size 2)
 [AB, AC, AD, BC, BD, CD]
 
 Reference:
-https://www.geeksforgeeks.org/permutation-and-combination-questions/
-https://prepinsta.com/permutation-combination/tips-and-tricks-and-shortcuts/
 https://www.freecodecamp.org/news/permutation-and-combination-the-difference-explained-with-formula-examples/
 
 Implementation of generating permutations
